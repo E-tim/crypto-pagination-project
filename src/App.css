@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+.loading-img {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.cryptoData {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30%;
+}
+.cryptoData p {
+    color: white;
+    text-align: center;
+}
+.subCryptoData {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+   
+}
+.myPar {
+    
+}
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.paginate {
+    color: black;
+    padding: 7px;
+    margin: 0 5px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .cryptoData {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 20px;
+    }
+}
