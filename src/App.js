@@ -40,7 +40,7 @@ function App() {
   useEffect(()=> {
     const getData = async()=> {
       setIsloading(true);
-      let res = await axios.get('http://localhost:8000/');
+      let res = await axios.get('https://crypto-pagination-project.vercel.app/');
       setResult(res.data);
       setIsloading(false);
     }
