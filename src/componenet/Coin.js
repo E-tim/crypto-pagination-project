@@ -11,7 +11,7 @@ const Coin = ({res}) => {
                 </div>
                 
                   <p>{res.current_price}</p>
-                  <p style={{color: `${ res.price_change_percentage_24h < 0 ? 'red' : 'white' }` }} >{res.price_change_percentage_24h.toFixed(2)}</p>
+                  <p style={{color: 'red' }} >{res.price_change_percentage_24h.toFixed(2)}</p>
                 
             </div>
         }
