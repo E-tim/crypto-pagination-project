@@ -40,7 +40,7 @@ function App() {
   useEffect(()=> {
     const getData = async()=> {
       setIsloading(true);
-      let res = await axios.get('https://crypto-pagination-project.vercel.app/');
+      let res = await axios.get('https://crypto-tracker-teal-xi.vercel.app/crypto');
       setResult(res.data);
       setIsloading(false);
     }
